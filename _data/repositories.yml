@@ -1,12 +1,16 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - mlisovyi
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - mlisovyi/map_with_stats
+  - mlisovyi/save_life_in_ua
+  - mlisovyi/hackzurich2021_eco_recommender
+  - mlisovyi/IBM_UnConference2020_MLflowDemo
+  - mlisovyi/yandex_cup_2020_ML
+  - MouadBH/coronapy-cli
+  - mlisovyi/Keggler
+  - mlisovyi/KagglePotpourri
+  - mlisovyi/KaggleSantander2019
+  - mlisovyi/KaggleGoogleAnalytics
+  - mlisovyi/HomeCreditOrNoCredit
+  - mlisovyi/ATLAS_TopWTagger_GBM
