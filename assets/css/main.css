@@ -583,7 +583,7 @@ footer.sticky-bottom {
 }
 .publications ol.bibliography li .abbr abbr {
   display: inline-block;
-  background-color: var(--global-theme-color);
+  background-color: "#ADB5BD";
   padding-left: 1rem;
   padding-right: 1rem;
 }
