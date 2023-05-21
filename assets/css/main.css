@@ -417,7 +417,7 @@ footer.sticky-bottom {
 }
 .cv .card .list-group-item .badge {
   color: var(--global-card-bg-color) !important;
-  background-color: var(--global-theme-color) !important;
+  background-color: "#ADB5BD" !important;
 }
 
 @media (min-width: 768px) {
