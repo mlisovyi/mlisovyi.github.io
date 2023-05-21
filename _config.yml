@@ -162,6 +162,9 @@ external_sources:
 
 # no collections shown on the landing page...
 collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
