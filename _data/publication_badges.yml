@@ -1,5 +1,11 @@
-"JHEP":
+"LHC":
   color: "#005F73"
 
-"EPJ C":
+"HERA":
   color: "#CA6702"
+
+"Overview":
+  color: "#94D2BD"
+
+"Proton structure":
+  color: "#E9D8A6"
