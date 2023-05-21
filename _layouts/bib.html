@@ -15,7 +15,6 @@
           {%- endif -%}
         {%- elsif entry.abbr -%}
           {% assign badge_array = entry.abbr | split: ','%}
-          <abbr class="badge">{{badge_array}}</abbr>
           {%- for badge in badge_array -%}
             {%- if site.data.publication_badges[badge] -%}
               {%- assign badge_style = nil -%}
