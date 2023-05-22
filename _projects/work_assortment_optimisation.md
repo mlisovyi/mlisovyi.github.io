@@ -2,7 +2,7 @@
 layout: page
 title: Store assortment optimisation
 description: Optimise assortment based on store location and past sales
-img:
+img: assets/img/projects/Migros.png
 importance: 1
 category: work
 ---
