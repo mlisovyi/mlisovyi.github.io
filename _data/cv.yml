@@ -13,6 +13,17 @@
 - title: Experience
   type: time_table
   contents:
+    - title: (Senior) Data Scientist
+      institution: Migros-Genosenschafts Bund, Zürich, Switzerland
+      year: 2020-2023
+      description:
+        - Definition of tasks for the team in the agile work environment
+        - Review of the team members' code
+        - An ETL pipeline with multi-process parallelisation using pandas + joblib
+        - Store revenue modelling using LightGBM and Lasso regressions in python User-facing dashboard using dash running in k8s using a docker image
+        - Testing using pytest with 60% coverage over 25k+ LoC + code linting and type checks Implementation of CI/CD pipelines in gitlab
+        - A/B testing of the project success
+
     - title: Customer Care Data Scientist
       institution: KNIME, Constance, Germany
       year: 2019
@@ -63,11 +74,9 @@
       year: 2008
 
 - title: Open Source Projects
-  type: time_table
+  type: list
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - see [projects/](../projects/)
 
 - title: Hobbies
   type: list
