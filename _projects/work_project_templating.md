@@ -2,7 +2,7 @@
 layout: page
 title: Project templating
 description: Fast start-up of a new project
-img:
+img: assets/img/projects/cookiecutter_medium.png
 importance: 2
 category: work
 ---
