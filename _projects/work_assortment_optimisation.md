@@ -32,6 +32,7 @@ I've been involved in all stages of the project:
 * development of an interactive application that would run the optimisation step dynamically
   under additional user constraints;
 * deployment of the application into kubernetes;
+* A/B test of KPI change in real-store optimisation;
 * introduction of best-practices in software development:
   * automatic code checks, formatting and tests,
   * common soft-ware development standards in the team,
