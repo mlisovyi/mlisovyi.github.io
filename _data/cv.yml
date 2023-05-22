@@ -76,7 +76,7 @@
 - title: Open Source Projects
   type: list
   contents:
-    - see [projects/](../projects/)
+    - see {% link _posts/2021-01-01-how-to-make-pizza.md %}
 
 - title: Hobbies
   type: list
