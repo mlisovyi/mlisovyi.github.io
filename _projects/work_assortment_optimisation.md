@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Store assortment optimisation
-description: optimise assortment based on store location and past sales
+description: Optimise assortment based on store location and past sales
 img:
 importance: 1
 category: work

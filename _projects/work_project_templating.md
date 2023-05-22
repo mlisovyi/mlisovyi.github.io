@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Project templating
-description: fast start-up of a new project
+description: Fast start-up of a new project
 img:
 importance: 2
 category: work

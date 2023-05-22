@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Map with statistics per hectare
-description: Map with statistics per hectare
+description: Visualise geo stats in Switzerland 🇨🇭
 img: assets/img/projects/map_screenshot.jpeg
 importance: 1
 category: fun
