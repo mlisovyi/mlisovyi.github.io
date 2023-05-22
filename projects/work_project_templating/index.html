@@ -10,9 +10,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Store assortment optimisation | Mischa  Lisovyi</title>
+    <title>Project templating | Mischa  Lisovyi</title>
     <meta name="author" content="Mischa  Lisovyi">
-    <meta name="description" content="optimise assortment based on store location and past sales">
+    <meta name="description" content="fast start-up of a new project">
     <meta name="keywords" content="jekyll, personal-website">
 
 
@@ -38,7 +38,7 @@
     <link rel="shortcut icon" href="/assets/img/favicon.png">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://mlisovyi.github.io/projects/work_assortment_optimisation/">
+    <link rel="canonical" href="https://mlisovyi.github.io/projects/work_project_templating/">
 
     <!-- Dark Mode -->
     
@@ -119,53 +119,29 @@
         <div class="post">
 
           <header class="post-header">
-            <h1 class="post-title">Store assortment optimisation</h1>
-            <p class="post-description">optimise assortment based on store location and past sales</p>
+            <h1 class="post-title">Project templating</h1>
+            <p class="post-description">fast start-up of a new project</p>
           </header>
 
           <article>
             <p>This was an internal project at the large Swiss retailer <a href="https://en.wikipedia.org/wiki/Migros" rel="external nofollow noopener" target="_blank">MIGROS</a>
-with the aim to <strong>optimise assortment in a store to the location and customers of the particular store</strong>.</p>
+with the aim to <strong>enable fast start-up of a new project</strong>.</p>
 
-<p>The project was implemented as a three-step procedure:</p>
-
-<ul>
-  <li>build an ML model to predict a performance KPI for various sizes of all assortment types
-in a store given its neighbourhood, store meta-data and past sales;</li>
-  <li>find an optimal combination of assortment sizes yielding the best total KPI
-under a set of business constraints;</li>
-  <li>wrap the solution into a user-facing interactive application.</li>
-</ul>
-
-<p>The project involved collection, processing and understanding of multiple data-sources
-and was fully implemented in python. The resulting improvement has been checked in A/B testing.</p>
-
-<p>I’ve been involved in all stages of the project:</p>
+<p>The result was:</p>
 
 <ul>
-  <li>understanding the business problem and formulation of a solution in a data-driven way;</li>
-  <li>collection of data and exploratory data analysis;</li>
-  <li>implementation of a scalable data pipeline;
+  <li>internal <a href="https://github.com/cookiecutter/cookiecutter" rel="external nofollow noopener" target="_blank">cookiecutter</a> templates for
+python library (shared importable code) and application (a tool running in a fixed environment);
     <ul>
-      <li>migration of a local pipeline into an orchestration engine (Airflow);</li>
+      <li>common project layout and used tools allow fast context switch between projects
+and knowledge transfer between people and teams;</li>
     </ul>
   </li>
-  <li>ML modelling, model evaluation and selection;</li>
-  <li>solution of the optimisation problem as integer-linear programming (ILP) problem;</li>
-  <li>development of an interactive application that would run the optimisation step dynamically
-under additional user constraints;</li>
-  <li>deployment of the application into kubernetes;</li>
-  <li>A/B test of KPI change in real-store optimisation;</li>
-  <li>introduction of best-practices in software development:
-    <ul>
-      <li>automatic code checks, formatting and tests,</li>
-      <li>common soft-ware development standards in the team,</li>
-      <li>thorough documentation of the logic and the code;</li>
-    </ul>
-  </li>
-  <li>implementation of CI/CD to validate the code and run deployment;</li>
-  <li>maintenance of the application and new releases of the tool;</li>
-  <li>iterative interaction with the business partners to understand evolution of requirements.</li>
+  <li>enforcement of best practices in the template to facilitate project development from
+from the very first steps;</li>
+  <li>pre-configured usage of the internal CI/CD;</li>
+  <li>set-up for documentation generation;</li>
+  <li>fast start-up time of 5 minutes to get a functional environment to start with a new project.</li>
 </ul>
 
           </article>
