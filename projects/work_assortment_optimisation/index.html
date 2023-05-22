@@ -10,9 +10,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Monitoring of donations to SaveLifeUA | Mischa  Lisovyi</title>
+    <title>Store assortment optimisation | Mischa  Lisovyi</title>
     <meta name="author" content="Mischa  Lisovyi">
-    <meta name="description" content="collect information about donations and expenses at SaveLifeUA">
+    <meta name="description" content="optimise assortment based on store location and past sales">
     <meta name="keywords" content="jekyll, personal-website">
 
 
@@ -38,7 +38,7 @@
     <link rel="shortcut icon" href="/assets/img/favicon.png">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://mlisovyi.github.io/projects/2_project/">
+    <link rel="canonical" href="https://mlisovyi.github.io/projects/work_assortment_optimisation/">
 
     <!-- Dark Mode -->
     
@@ -119,14 +119,53 @@
         <div class="post">
 
           <header class="post-header">
-            <h1 class="post-title">Monitoring of donations to SaveLifeUA</h1>
-            <p class="post-description">collect information about donations and expenses at SaveLifeUA</p>
+            <h1 class="post-title">Store assortment optimisation</h1>
+            <p class="post-description">optimise assortment based on store location and past sales</p>
           </header>
 
           <article>
-            <p>EDA of the donations and expenses to “Повернись Живим” (“Come back alive”/”Save life in ua”): https://www.comebackalive.in.ua/</p>
+            <p>This was an internal project at the large Swiss retailer <a href="https://en.wikipedia.org/wiki/Migros" rel="external nofollow noopener" target="_blank">MIGROS</a>
+with the aim to <strong>optimise assortment in a store to the location and customers of the particular store</strong>.</p>
 
-<p>For more information, see the <a href="https://mlisovyi.github.io/save_life_in_ua/">dynamically generated documentation</a>.</p>
+<p>The project was implemented as a three-step procedure:</p>
+
+<ul>
+  <li>build an ML model to predict a performance KPI for various sizes of all assortment types
+in a store given its neighbourhood, store meta-data and past sales;</li>
+  <li>find an optimal combination of assortment sizes yielding the best total KPI
+under a set of business constraints;</li>
+  <li>wrap the solution into a user-facing interactive application.</li>
+</ul>
+
+<p>The project involved collection, processing and understanding of multiple data-sources
+and was fully implemented in python. The resulting improvement has been checked in A/B testing.</p>
+
+<p>I’ve been involved in all stages of the project:</p>
+
+<ul>
+  <li>understanding the business problem and formulation of a solution in a data-driven way;</li>
+  <li>collection of data and exploratory data analysis;</li>
+  <li>implementation of a scalable data pipeline;
+    <ul>
+      <li>migration of a local pipeline into an orchestration engine (Airflow);</li>
+    </ul>
+  </li>
+  <li>ML modelling, model evaluation and selection;</li>
+  <li>solution of the optimisation problem as integer-linear programming (ILP) problem;</li>
+  <li>development of an interactive application that would run the optimisation step dynamically
+under additional user constraints;</li>
+  <li>deployment of the application into kubernetes;</li>
+  <li>introduction of best-practices in software development:
+    <ul>
+      <li>automatic code checks, formatting and tests,</li>
+      <li>common soft-ware development standards in the team,</li>
+      <li>thorough documentation of the logic and the code;</li>
+    </ul>
+  </li>
+  <li>implementation of CI/CD to validate the code and run deployment;</li>
+  <li>maintenance of the application and new releases of the tool;</li>
+  <li>iterative interaction with the business partners to understand evolution of requirements.</li>
+</ul>
 
           </article>
 
@@ -139,7 +178,7 @@
     <footer class="fixed-bottom">
       <div class="container mt-0">
         © Copyright 2023 Mischa  Lisovyi. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>.
-Last updated: May 21, 2023.
+Last updated: May 22, 2023.
       </div>
     </footer>
 
