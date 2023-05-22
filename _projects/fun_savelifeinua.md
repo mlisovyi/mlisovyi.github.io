@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Monitoring of donations to SaveLifeUA
-description: collect information about donations and expenses at SaveLifeUA
+title: Monitoring of donations to "Save life in UA"
+description: visualise information about donations and expenses of the fund
 img: assets/img/projects/daily_cum.png
 importance: 2
 category: fun
