@@ -73,11 +73,6 @@
       institution: Taras Shevchenko National University of Kyiv
       year: 2008
 
-- title: Open Source Projects
-  type: list
-  contents:
-    - see {% link projects %}
-
 - title: Hobbies
   type: list
   contents:
