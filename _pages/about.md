@@ -18,11 +18,11 @@ social: true  # includes social icons at the bottom of the page
 I have hands-on experience developing `data-driven applications end-to-end in python` from a proof-of-concept (PoC)
 stage up to maintaining and improving a user-phasing application.
 
-See [cv](https://mlisovyi.github.io/cv/) [cv](/cv/) [cv](cv/) [cv](cv) for my work experience and
-there are examples of [projects](https://mlisovyi.github.io/projects/) that I've worked on
+See [cv](cv/) for my work experience and
+there are examples of [projects](projects/) that I've worked on
 available.
-For examples of code that I have contributed or fully written, see [repositories](https://mlisovyi.github.io/repositories/).
+For examples of code that I have contributed or fully written, see [repositories](repositories/).
 
 I have a PhD in particle physics and have spent several years in academia.
-There is a list of [publications](https://mlisovyi.github.io/publications/) with my personal significant
+There is a list of [publications](publications/) with my personal significant
 contribution.
