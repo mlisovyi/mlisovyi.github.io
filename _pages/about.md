@@ -18,7 +18,7 @@ social: true  # includes social icons at the bottom of the page
 I have hands-on experience developing `data-driven applications end-to-end in python` from a proof-of-concept (PoC)
 stage up to maintaining and improving a user-phasing application.
 
-See [cv](https://mlisovyi.github.io/cv/) for my work experience and
+See [cv](https://mlisovyi.github.io/cv/) [cv](/cv/) [cv](cv/) [cv](cv) for my work experience and
 there are examples of [projects](https://mlisovyi.github.io/projects/) that I've worked on
 available.
 For examples of code that I have contributed or fully written, see [repositories](https://mlisovyi.github.io/repositories/).
