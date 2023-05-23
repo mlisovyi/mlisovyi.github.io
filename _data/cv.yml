@@ -83,7 +83,7 @@
   type: list
   contents:
     - see <a "https://mlisovyi.github.io/repositories/" target="_blank">repositories</a> for a list of code repositories
-    - see <a class="nav-link" href="/projects/">projects</a> for a list of projects
+    - see <a class="nav-link" href="/projects/">projects</a>  <a href="/projects/">projects</a> for a list of projects
 
 - title: Hobbies
   type: list
