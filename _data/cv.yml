@@ -22,7 +22,7 @@
         - title: An ETL pipeline for data ingestion and processing
           contents:
             - local python scripts with multi-process parallelisation using pandas + joblib
-            - <b>Airflow</b> with python scripts in pods and scala jobs on Spark
+            - <em><b>Airflow</b></em> with python scripts in pods and scala jobs on Spark
         - Store revenue modelling using LightGBM and Lasso regressions in python
         - User-facing dashboard using dash running in k8s using a docker image
         - Testing using pytest with 60% coverage over 25k+ LoC + code linting and type checks
