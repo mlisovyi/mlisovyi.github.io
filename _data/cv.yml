@@ -19,6 +19,7 @@
       description:
         - Definition of tasks for the team in the agile work environment
         - Review of the team members' code
+        - Mentoring less experienced team members and sharing knowledge in the internal meetup
         - title: An ETL pipeline for data ingestion and processing
           contents:
             - local python scripts with multi-process parallelisation using pandas + joblib
