@@ -17,25 +17,25 @@
       institution: Migros-Genosenschafts Bund, Zürich, Switzerland
       year: 2020-2023
       description:
-        - Definition of tasks for the team in the agile work environment
+        - Definition of tasks for the team in the <em><b>agile work environment</b></em>
         - Review of the team members' code
-        - Mentoring less experienced team members and sharing knowledge in the internal meetup
+        - <em><b>Mentoring</b></em> less experienced team members and sharing knowledge in the internal meetup
         - title: An ETL pipeline for data ingestion and processing
           contents:
-            - local python scripts with multi-process parallelisation using pandas + joblib
+            - local python scripts with multi-process parallelisation using <em><b>pandas + joblib</b></em>
             - <em><b>Airflow</b></em> with python scripts in pods and scala jobs on Spark
-        - Store revenue modelling using LightGBM and Lasso regressions in python
-        - User-facing dashboard using dash running in k8s using a docker image
+        - <em><b>Store revenue modelling</b></em> using LightGBM and Lasso regressions in python
+        - <em><b>User-facing dashboard application</b></em> using dash running in k8s using a docker image
         - Testing using pytest with 60% coverage over 25k+ LoC + code linting and type checks
-        - Implementation of CI/CD pipelines in gitlab
-        - A/B testing of the project success
+        - Implementation of <em><b>CI/CD pipelines</b></em> in gitlab
+        - <em><b>A/B testing</b></em> of the project success
 
     - title: Customer Care Data Scientist
       institution: KNIME, Constance, Germany
       year: 2019
       description:
-        - "Implementation of model interpretation algorithms: K-LIME"
-        - Customer support for KNIME Server and POC preparation crafted to user needs
+        - "Implementation of <em><b>model interpretation algorithms</b></em>: K-LIME"
+        - Customer support for KNIME Server and PoC preparation crafted to user needs
 
     - title: Kaggle competitor
       year: 2018
