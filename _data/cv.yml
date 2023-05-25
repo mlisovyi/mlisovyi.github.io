@@ -13,9 +13,9 @@
 - title: Experience
   type: time_table
   contents:
-    - title: (Senior) Data Scientist
+    - title: Senior Data Scientist
       institution: Migros-Genosenschafts Bund, Zürich, Switzerland
-      year: 2020-2023
+      year: 2020 - 2023
       description:
         - Definition of tasks for the team in the <em><b>agile work environment</b></em>
         - Review of the team members' code
@@ -32,13 +32,13 @@
 
     - title: Customer Care Data Scientist
       institution: KNIME, Constance, Germany
-      year: 2019
+      year: 2019 - 2019
       description:
         - "Implementation of <em><b>model interpretation algorithms</b></em>: K-LIME"
         - Customer support for KNIME Server and PoC preparation crafted to user needs
 
     - title: Kaggle competitor
-      year: 2018
+      year: 2018 - 2018
       description:
         - 9th place out of 7000+ teams (top 1% and gold medal) on a kaggle.com competition
         - 3 silver medals for kernels with total on 10000 views
@@ -72,12 +72,12 @@
   contents:
     - title: PhD
       institution: Universität Hamburg, Hamburg, Germany
-      year: 2011
+      year: 2008 - 2011
       description:
         - Measurement of charm production in deep inelastic scattering using lifetime tagging for D± meson decays with the ZEUS detector at HERA
     - title: MSc
       institution: Taras Shevchenko National University of Kyiv
-      year: 2008
+      year: 2003 - 2008
 
 - title: Open Source Projects
   type: list
