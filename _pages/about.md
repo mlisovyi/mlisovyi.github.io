@@ -15,8 +15,8 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I have hands-on experience developing `data-driven applications end-to-end in python` from a proof-of-concept (PoC)
-stage up to maintaining and improving a user-phasing application.
+I have hands-on experience developing **data-driven applications end-to-end in python** from a proof-of-concept (PoC)
+stage up to maintaining and improving a user-facing application.
 
 See [cv](cv/) for my work experience and
 there are examples of [projects](projects/) that I've worked on
